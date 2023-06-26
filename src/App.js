@@ -47,7 +47,7 @@ function App() {
         {/* <Header></Header>
         < ToastContainer /> */}
         <Routes>
-            <Route path="/customers" element={<CustomerList />} />
+            <Route path="/" element={<CustomerList />} />
             <Route path="/masterConfigaration" element={<MasterConfigarationList />} />
             <Route path="/homeComponent" element={<HomeComponent />} />
             <Route path="/sideBar" element={<SideBar />} />
